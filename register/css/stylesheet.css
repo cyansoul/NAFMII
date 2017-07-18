@@ -1,0 +1,155 @@
+.file {
+	padding: 4px 10px;
+	height: 30px;
+	line-height: 20px;
+	position: relative;
+	cursor: pointer;
+	color: #888;
+	background: #fafafa;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	overflow: hidden;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+.file input {
+	position: absolute;
+	font-size: 100px;
+	right: 0;
+	top: 0;
+	opacity: 0;
+	filter: alpha(opacity = 0);
+	cursor: pointer
+}
+
+.file:hover {
+	color: #444;
+	background: #eee;
+	border-color: #dad8db;
+	text-decoration: none
+}
+
+.container-fluid {
+	background-color: #fdfcff;
+	padding: auto;
+	margin: 0 10% 0;
+	border: 1px solid #e5e3e7;
+	border-radius: 5px;
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+}
+
+#leftpart {
+	padding: 3% 8% 0 0;
+	margin: auto;
+	
+}
+
+#rightpart {
+	padding: 3% 0 0 0;
+	margin: auto;
+	border-left:1px dotted #f00; 
+}
+
+body {
+	background-color: #f1f4f6;
+}
+
+body, td, th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #1d1007;
+	line-height: 24px
+}
+
+.com_header {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	padding: 1% 10%;
+	background-color: #f1f4f6;
+}
+
+.com_header ul {
+	display: inline-block;
+	right: 10%;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.title {
+	
+}
+
+.com_header li>span:nth-child(1) {
+	color: #fff;
+	background: #f1f4f6;
+	padding: 7px;
+	border-radius: 100%;
+	font-size: 18px;
+	margin-right: 2px;
+}
+
+.all_footer {
+	text-align: center;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, STHeiti,
+		"Microsoft Yahei", sans-serif;
+	margin: 14px auto;
+	font-size: 14px;
+	color: #bfbfbf;
+	background-color: #62676c;
+	padding: 30px 0 0;
+}
+
+.all_footer p {
+	line-height: 1.8;
+}
+
+.form-control {
+	background-color: #EDEDED;
+}
+
+::-webkit-input-placeholder {
+	color: red;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+	color: red;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+	color: red;
+}
+
+:-ms-input-placeholder {
+	color: red;
+}
+
+#gender {
+	width:30%;
+	font-size: 16px; 
+	float: center;
+}
+
+#male {
+	width:33%;
+	height:34px;
+}
+
+#female {
+	width:33%;
+}
+
+#mycheck {
+	
+}
